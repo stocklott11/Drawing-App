@@ -1,0 +1,14 @@
+{
+    "name": "drawing-app",
+    "version": "1.0.0",
+    "description": "A basic drawing app built with TypeScript, HTML5 Canvas, and CSS.",
+    "scripts": {
+      "build": "tsc",
+      "watch": "tsc --watch",
+      "serve": "npx http-server -c-1 -p 5173 ."
+    },
+    "devDependencies": {
+      "typescript": "^5.6.0"
+    }
+  }
+  

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TypeScript Drawing App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>TypeScript Drawing App</h1>
+      <p class="subtitle">Freehand drawing with color, size, clear, and save</p>
+    </header>
+
+    <main class="layout">
+      <section class="controls" aria-label="Drawing controls">
+        <div class="control">
+          <label for="color">Brush color</label>
+          <input id="color" type="color" value="#0f62fe" />
+        </div>
+
+        <div class="control">
+          <label for="size">Brush size: <span id="sizeValue">8</span> px</label>
+          <input id="size" type="range" min="1" max="64" value="8" />
+        </div>
+
+        <div class="actions">
+          <button id="clearBtn" type="button">Clear</button>
+          <button id="saveBtn" type="button">Save PNG</button>
+        </div>
+      </section>
+
+      <section class="canvas-wrap" aria-label="Drawing area">
+        <canvas id="canvas" width="1024" height="640" aria-label="Drawing canvas"></canvas>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>Use mouse to draw. Hold Shift for straight lines. Press C to clear, S to save.</p>
+      <p><a href="./dist/main.js">Built JS</a></p>
+    </footer>
+
+    <script type="module" src="./dist/main.js"></script>
+  </body>
+</html>
