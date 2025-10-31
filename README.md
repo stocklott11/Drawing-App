@@ -8,11 +8,11 @@ My goal was to get hands-on experience with how TypeScript adds structure and ty
 
 ## Development Environment
 
-- **Visual Studio Code**
-- **TypeScript** 
-- **HTML5 Canvas API** 
-- **CSS3** 
-- **Node.js + npm**  
+- Visual Studio Code
+- TypeScript 
+- HTML5 Canvas API 
+- CSS3 
+- Node.js + npm
 
 ## Useful Websites
 
