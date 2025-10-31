@@ -4,7 +4,7 @@ I created this Drawing App to build my skills with TypeScript and see how it can
 
 My goal was to get hands-on experience with how TypeScript adds structure and type safety to everyday coding tasks. This project helped me understand how classes, modules, and real-time browser events all come together in a web app. It also gave me a better appreciation for how TypeScript can catch small mistakes before they cause bigger problems.
 
-[🎥 Software Demo Video](http://youtube.link.goes.here)
+[🎥 Software Demo Video](https://youtu.be/UmyhekJdo5o)
 
 ## Development Environment
 
