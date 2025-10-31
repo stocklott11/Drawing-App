@@ -4,4 +4,3 @@ export class Brush {
     setColor(color: string) { this.color = color; }
     setSize(size: number) { this.size = size; }
   }
-  
